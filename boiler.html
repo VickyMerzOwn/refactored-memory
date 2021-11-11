@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tic Tac Toe</title>
+    <script src="1.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="main">
+      <h1>Tic Tac Toe</h1>
+
+      <!--Instructions-->
+      <p type="instructions">
+        Game starts with click.<br />First Person to click is X<br />Second
+        person to click is O.
+      </p>
+      <br /><br /><br /><br /><br />
+      <input type="text" id="b1" onclick="g1();win();" />
+      <input type="text" id="b2" onclick="g2();win();" />
+      <input type="text" id="b3" onclick="g3();win();" />
+      <br /><br />
+      <input type="text" id="b4" onclick="g4();win();" />
+      <input type="text" id="b5" onclick="g5();win();" />
+      <input type="text" id="b6" onclick="g6();win();" />
+      <br /><br />
+      <input type="text" id="b7" onclick="g7();win();" />
+      <input type="text" id="b8" onclick="g8();win();" />
+      <input type="text" id="b9" onclick="g9();win();" />
+      <br /><br /><br /><br /><br />
+      <button id="button" onclick="resetgame();">Reset</button>
+      <br /><br /><br />
+      <p id="end"></p>
+    </div>
+  </body>
+</html>
